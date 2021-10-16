@@ -1,0 +1,319 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+    /* Navbar */
+.navbar{
+
+  background-color: black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+
+}
+.navbar__text{
+display: flex;
+height: 40px;
+align-items: center;
+justify-content: center;
+width: 1200px;
+margin: 10px auto;
+}
+.logo{
+  width: 40%;
+ color: white;
+}
+.navbar__ul
+{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+
+}
+.navbar__ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  
+}
+
+
+    /* Header */
+.header{
+  background-color: #87d1ff;
+  width: 100%;
+  height: 700px;
+}
+.heading{
+ margin-top: 20%;
+font-size: 4rem;
+font-weight: 700;
+}
+.frow{
+  display: flex;
+  justify-content: center;
+}
+
+.parag{
+  display: flex;
+ justify-content: center;
+ margin-top: 2%;
+}
+.head{
+  display: flex;
+  justify-content: center;
+
+}
+.btn2{
+  border-radius: 16px;
+  width: 26%;
+  height: 72px;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 12px;
+  border: none;
+}
+.btn1{
+  border-radius: 16px;
+  width: 26%;
+  height: 72px;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 12px;
+  border: none;
+}
+.btn1:hover{
+  width: 29%;
+  height: 79px;  
+}
+.btn2:hover{
+  width: 29%;
+  height: 79px;
+    
+}
+.srow{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  
+}
+.firstbtn{
+ display: flex;
+ justify-content: center;
+}
+
+ /* body */
+
+ .bodyheading{
+   display: flex;
+   justify-content: center;
+   font-size: 2.3rem;
+    line-height: 1.15;
+    letter-spacing: -.0275rem;
+    color: #1a1a1a;
+    font-weight: 700;
+ }
+ .BodyCont{
+   padding: 5%;
+ }
+ .images{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 5% 20%;
+ }
+ .imgall{
+   margin-left: 18%;
+   margin-top: 30px;
+   
+ }
+.h2-merge{
+  padding-left: 18%;
+  padding-top: 2%;
+}
+.h2-merge2{
+  padding-left: 60%;
+  
+}
+.btn{
+  width: 15%;
+  height: 60px;
+  background-color: white;
+  border: 2px solid;
+  
+}
+.btn5{
+  width: 15%;
+  height: 60px;
+  background-color: white;
+}
+
+/* Thbody */
+
+.paraborder{
+  width: 100%;
+  height: 290px;
+  background-color: #87d1ff;
+  border-radius: 10px;
+}
+.paraborder p{
+  padding: 10%;
+  font-size: 20px;
+}
+.paragrap{
+  padding-top: 20%;
+}
+.otherabout{
+  padding-top: 38%;
+  margin-left: 12%;
+}
+.otherabout p{
+  font-size: 20px;
+}
+
+/* Frbody */
+
+.contchose{
+  margin-top: 10%;
+  background-color: #e7ecee;
+  padding: 10% 10%;
+}
+.headingchose{
+  display: flex;
+  justify-content: center;
+}
+.frhading{
+  padding-left: 18%;
+  padding-top: 3%;
+  font-size: 18px;
+}
+.hzline{
+  width: 67%;
+  display: flex;
+  justify-content: center;
+  margin-left: 15%;
+}
+
+/* Bodytwo */
+
+.contBodytwo{
+  background-color: #87d1ff;
+}
+.contBodytwo h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  
+}
+.btn3{
+  border-radius: 16px;
+  width: 26%;
+  height: 72px;
+  justify-content: center;
+  margin-right: 12px;
+  border: none;
+}
+.btn4{
+  border-radius: 16px;
+  width: 29%;
+  height: 72px;
+  justify-content: center;
+  border: none;
+}
+.btn3:hover{
+  width: 29%;
+  height: 79px;
+    
+}
+.btn4:hover{
+  width: 32%;
+  height: 79px;
+    
+}
+/* Footer */
+
+.footer{
+  background-color: black;
+ 
+}
+.footer h4{
+  color: white;
+  padding-top: 24%;
+}
+.WMSC{
+  display: flex;
+  justify-content: space-around;
+  justify-content: start;
+  padding-left: 17%;
+  color: rgba(255, 255, 255, 0.521);
+ 
+}
+.WMSC1{
+  display: flex;
+  justify-content: space-around;
+  justify-content: start;
+ padding-left: 26%;
+  color: rgba(255, 255, 255, 0.521);
+}
+.WMSC2{
+  display: flex;
+  justify-content: space-around;
+  justify-content: start;
+ padding-left: 35%;
+  color: rgba(255, 255, 255, 0.521);
+}
+.footerline{
+  color: white;
+  margin-top: 20%;
+}
+
+
+/* @media Query for All */
+
+@media only screen and (max-width: 700px) {
+  .navbar__text {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .heading{
+    margin-top: 20%;
+   font-size: 2rem;
+   font-weight: 700;
+   }
+   .firstbtn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ 
+   }
+   .btn1, .btn2{
+    width: 100%;
+    margin-top: 5%;
+   }
+   .btn1, .btn2{
+     width: 100%;
+   }
+   .btn2:hover{
+     width: 100%;
+
+   }
+   .btn, .btn5{
+    width: 50%;
+  }
+  .WMSC, .WMSC1, .WMSC2{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+}
